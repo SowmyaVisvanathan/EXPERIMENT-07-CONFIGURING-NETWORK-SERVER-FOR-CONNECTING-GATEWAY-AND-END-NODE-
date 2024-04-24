@@ -1,7 +1,9 @@
  ### EXPERIMENT -07 CONFIGURING NETWORK SERVER FOR CONNECTING GATEWAY AND END NODE 
  
-## Aim: To  configure  the Network server and end device for traferring data on the network
-## Components required: end node stm 32 development kit , dragino LPS8, network server 
+## Aim: 
+To  configure  the Network server and end device for traferring data on the network
+## Components required: 
+end node stm 32 development kit , dragino LPS8, network server 
 
 ## Theory :
 When working with sensitive applications or files, saving progress on your local device is a start, but what if you lose access to your device? Network servers address this problem by hosting the files and programs most pertinent to the network and enabling access for consistent, real-time use. 
@@ -30,29 +32,14 @@ Permissioned access and log-ins for network users Gateway access to the Internet
 ![image](https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/1fb72be5-e48d-4cde-a329-0cfb0d29070f)
 6. add the attributesin the end device as  shown below 
  ![image](https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/00bff30b-42fc-42d5-9540-285d270e41cb)
-7.using AT commands configure end device in serial port utility
-AT Commands to set initially (Mandatory)
- AT+FDR // To do factory data reset
- AT+NJM=1 // To set OTAA mode
- AT+ADR=1 // To enable the ADR
- AT+TDC=600000 // To set the default sampling interval as 10 minutes
-(Should not give below 5 minutes)
- AT+CLASS=C // To set class C
- AT+DEUI=XX XX XX XX XX XX XX XX // To set Device EUI key
- AT+APPEUI=XX XX XX XX XX XX XX XX // To set APP EUI key
- AT+APPEUI=XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX //
-To set APP Key
- ATZ // To take effective action on below settings (As like saving)
-
 
 
 ## OUTPUT 
-![image](https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/858435f2-2f59-435d-ad3f-7ecd377bd0da)
+![1](https://github.com/SowmyaVisvanathan/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/119475775/85837988-5d99-47b9-9d77-fe4fe95dfce6)
 
-
+![2](https://github.com/SowmyaVisvanathan/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/119475775/9046bb72-39e2-40a6-b1cd-472fd0debc3c)
 
 
 ## Results: 
-
   The Network server and end device for traferring data on the network has been accomplished.
 
